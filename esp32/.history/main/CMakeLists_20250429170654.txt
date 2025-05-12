@@ -1,0 +1,2 @@
+idf_component_register(SRCS "main.c" "uart_receiver.c" "wifi_manager.c" "mqtt_client.c" "upload_manager.c" "command_manager.c" "led_manager.c" "config_manager.c" INCLUDE_DIRS ".")
+

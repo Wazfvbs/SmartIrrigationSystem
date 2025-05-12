@@ -1,0 +1,12 @@
+#ifndef DISPLAY_MANAGER_H
+#define DISPLAY_MANAGER_H
+
+#include "esp_err.h"
+#include "uart_receiver.h" // 引入 sensor_data_t 结构体
+
+esp_err_t display_manager_init(void);
+esp_err_t display_manager_show_env(const sensor_data_t *data);
+esp_err_t display_manager_show_message(const char *message);
+esp_err_t display_manager_show_watering(void);
+
+#endif // DISPLAY_MANAGER_H

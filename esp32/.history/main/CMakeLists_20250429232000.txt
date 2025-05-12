@@ -1,0 +1,21 @@
+idf_component_register(
+  SRCS "main.c"
+       "uart_receiver.c"
+       "wifi_manager.c"
+       "app_mqtt.c"
+       "upload_manager.c"
+       "command_manager.c"
+       "led_manager.c"
+       "config_manager.c"
+  INCLUDE_DIRS "."
+
+  REQUIRES
+    esp_driver_uart
+    esp_driver_ledc
+    esp_wifi
+    esp_event
+    nvs_flash
+    mqtt
+    json
+    esp_driver_gpio
+)
