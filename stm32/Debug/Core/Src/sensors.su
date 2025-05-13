@@ -1,0 +1,5 @@
+sensors.c:18:6:SENSORS_Init	4	static
+sensors.c:40:17:SENSORS_ReadADC_Channel	32	static
+sensors.c:70:10:GetHumidity	32	static
+sensors.c:90:10:GetLightValue	24	static
+sensors.c:107:6:SENSORS_ReadAll	24	static

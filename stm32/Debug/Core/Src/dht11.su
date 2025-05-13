@@ -1,0 +1,7 @@
+dht11.c:6:6:Dht11_DATA_OUT	24	static
+dht11.c:15:6:Dht11_DATA_IN	24	static
+dht11.c:23:6:DHT11_Rst	8	static
+dht11.c:31:9:DHT11_Check	16	static
+dht11.c:49:9:DHT11_Read_Bit	16	static
+dht11.c:65:9:DHT11_Read_Byte	16	static
+dht11.c:74:9:DHT11_Read_Data	32	static
