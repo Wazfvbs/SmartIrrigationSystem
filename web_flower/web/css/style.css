@@ -1,0 +1,34 @@
+/* 全局样式 */
+body {
+    font-family: "微软雅黑", sans-serif;
+}
+
+/* banner 区域 */
+.banner-container {
+    position: relative;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.banner-img {
+    max-height: 400px;
+    object-fit: cover;
+}
+.banner-text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+/* data-card */
+.data-card {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.data-card:hover {
+    transform: scale(1.05);
+}
+
+/* Forum */
+.list-group-item {
+    margin-bottom: 10px;
+}
