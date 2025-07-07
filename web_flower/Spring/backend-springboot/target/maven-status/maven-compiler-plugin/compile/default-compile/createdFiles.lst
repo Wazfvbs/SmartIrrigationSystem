@@ -1,0 +1,8 @@
+com\smartirrigation\config\SecurityConfig.class
+com\smartirrigation\entity\User.class
+com\smartirrigation\Application.class
+com\smartirrigation\config\CorsConfig.class
+com\smartirrigation\controller\HelloController.class
+com\smartirrigation\repository\UserRepository.class
+com\smartirrigation\controller\AuthController.class
+com\smartirrigation\util\JwtUtil.class
