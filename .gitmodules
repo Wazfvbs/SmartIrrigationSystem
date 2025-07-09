@@ -1,0 +1,3 @@
+[submodule "docs_private"]
+	path = docs_private
+	url = git@github.com:Wazfvbs/SmartIrrigationPrivateDocs.git
