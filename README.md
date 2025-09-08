@@ -43,9 +43,7 @@
 ---
 
 ## 🖼 系统架构图
-📌 项目导图见 `docs/导图/` 或 `docs/images/`，例如：
-- `5.drawio`
-- `6.drawio.png`
+📌 项目导图见 `docs/导图/` 或 `docs/images/`
 
 ---
 
@@ -96,4 +94,4 @@ MIT License
 
 ---
 
-> 欢迎 ⭐Star 本项目，如需合作或了解更多，请联系：your_email@example.com
+> 欢迎 ⭐Star 本项目，如需合作或了解更多，请联系：wazfvb@163.com
