@@ -1,4 +1,14 @@
 dependencies:
+  atanisoft/esp_lcd_ili9488:
+    component_hash: 45d4c19647801a7000f9106b39127576fb58bd623fb13c1453071190c6f0b8e3
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4.2'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.1.0
   espressif/cmake_utilities:
     component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
     dependencies:
@@ -14,8 +24,9 @@ dependencies:
       type: idf
     version: 5.3.1
 direct_dependencies:
+- atanisoft/esp_lcd_ili9488
 - espressif/cmake_utilities
 - idf
-manifest_hash: 805e34f7f001cbe8b1bd7b62dc6c7e50a6ab6dae4372be685f587bf86e4acad3
+manifest_hash: 98b1bff7e294a1d3ca2fa9f8f7fbd166a8cf204748dd0fd0519a38c2987aab34
 target: esp32s3
 version: 2.0.0
